@@ -18,7 +18,7 @@
     - 计算某属性的每个取值的entropy相加->给每个不同分支因不同样本树带来不同权重，then计算出此属性a对样本集D进行划分带来的“信息增益”information gain
       - 增益越大，纯度越高
     - 例子：ID3决策树
-    - 弊端：对可取值数目多的属性有所偏好（e.g.不反华）
+    - 弊端：对可取值数目多的属性有所偏好（e.g.不泛化）
   - 增益率gain ratio
     - 解决information gain带来的偏好不良影响，计算“增益率”gain ratio
     - 信息增益(Gain)/属性a的“固有值”intrinsic value (IV)
