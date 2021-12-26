@@ -18,7 +18,7 @@
   - 输出层output layer 为M-P神经元
     - M-P神经元即McCulloch-Pitts model（亦称为“阈值逻辑神经元”threshold logic unit）；input为[0, 1] (boolean)作逻辑运算 (0-excitatory; 1-inhibitory)
       - 线性可分问题linear separable：“与”，“或”，“非”
-        - 学习过程中找出合适的w（参数）并且会_收敛converge_；否则过程会振荡flutation
+        - 学习过程中找出合适的w（参数）并且会_收敛converge_；否则过程会振荡fluctation
       - 非线性可分：“异或”
         - 无法找到合适解；感知器过于简单无法解决非线性问题=>solution: 多层功能神经元functional neuron
 
