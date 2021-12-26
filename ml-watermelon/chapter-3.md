@@ -5,9 +5,7 @@
 ## 3.1 基本形式
 
 线性模型linear model的基本形式 （d features），参数（w，b通过学习，或者w0表示b）与属性进行线性组合
-$$
-y(\textbf{x,w})=w_1x_1+w_2x_2+...+w_dx_d+b
-$$
+$y(\textbf{x,w})=w_1x_1+w_2x_2+...+w_dx_d+b$
 向量形式
 $$
 y(\textbf{x,w})=w^Tx+b
